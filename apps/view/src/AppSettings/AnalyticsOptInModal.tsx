@@ -7,7 +7,7 @@ import {useAppState, updateAppPreferences} from '../state'
 import {Fade, Checkbox, Button} from '../ui'
 import {AppPreferences} from '../types'
 
-const TITLE_COPY = 'welcome to tracespace view!'
+const TITLE_COPY = 'welcome to incbotic view!'
 const USAGE_TRACKING_COPY_1 =
   'Please consider giving tracespace permission to collect anonymous usage data as you use this app.'
 const USAGE_TRACKING_COPY_2 =

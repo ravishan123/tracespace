@@ -5,7 +5,7 @@ import {hot} from 'react-hot-loader/root'
 import {useAppState, createBoard, createBoardFromUrl} from './state'
 import BoardDisplay from './BoardDisplay'
 import FileList from './FileList'
-import BoardList from './BoardList'
+// import BoardList from './BoardList'
 import Nav from './Nav'
 import LoadFiles from './LoadFiles'
 import ErrorToast from './ErrorToast'
@@ -35,7 +35,6 @@ function App(): JSX.Element {
     <Main onDragOver={preventDefault} onDrop={handleFiles}>
       <BoardDisplay />
       <FileList />
-      <BoardList />
       <Nav handleFiles={handleFiles} handleUrl={handleUrl} />
       <LoadFiles handleFiles={handleFiles} handleUrl={handleUrl} />
       <ErrorToast />

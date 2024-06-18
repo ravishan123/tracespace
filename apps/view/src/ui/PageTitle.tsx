@@ -13,9 +13,9 @@ export function PageTitle(props: PageTitleProps): JSX.Element {
 
   return (
     <div className={cx('dib', className)}>
-      <Logo className="pl1 mr3 v-btm brand" />
+      {/* <Logo className="pl1 mr3 v-btm brand" /> */}
       <h1 className="dib mv0 f3 lh-title normal">
-        tracespace
+        Incboic
         {subtitle && <span className="b">{` ${subtitle}`}</span>}
       </h1>
     </div>

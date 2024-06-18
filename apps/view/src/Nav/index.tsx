@@ -40,7 +40,6 @@ export default function Nav(props: Props): JSX.Element {
         />
         <AppSettings buttonClassName={BUTTON_STYLE} />
       </div>
-      <Footer />
     </nav>
   )
 }
