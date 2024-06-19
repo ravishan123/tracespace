@@ -1,5 +1,5 @@
 .brand {
-  color: #30c2c2;
+  color: #000000;
 }
 
 .bg-brand {
@@ -7,11 +7,11 @@
 }
 
 .b--brand {
-  border-color: #30c2c2;
+  border-color: #330776;
 }
 
 .bg-gradient {
-  background: radial-gradient(#eee, #777);
+  background: radial-gradient(#381a1a00, #010213);
 }
 
 .scrollbar-white,

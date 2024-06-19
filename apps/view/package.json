@@ -65,6 +65,7 @@
     "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.21",
     "react-transition-group": "^4.3.0",
+    "styled-components": "^6.1.11",
     "tachyons": "^4.11.1",
     "viewbox": "^1.0.0",
     "whats-that-gerber": "^4.2.7"
