@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, {keyframes} from 'styled-components'
-import {useAppState} from '../state'
+import {useAppState} from '../../state'
 
 const draw = keyframes`
   0% {
@@ -11,13 +11,13 @@ const draw = keyframes`
   }
 `
 
-const StyledSvg = styled.svg`
+const StyledSvg = styled.svg<{board: boolean}>`
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: radial-gradient(#381a1a00, #010213);
-  opacity: 0.2;
+  opacity: ${props => (props.board ? 0.1 : 0.6)};
 
   .path {
     animation: ${draw} 20s infinite linear;
@@ -44,6 +44,7 @@ export function BgAnimation(): JSX.Element {
   const {mode, board, loading, layerVisibility} = useAppState()
   return (
     <StyledSvg
+      board={board ? true : false}
       width="100vw"
       height="1600px"
       viewBox="0 0 100vw 1600"
