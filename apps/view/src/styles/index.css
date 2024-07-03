@@ -12,7 +12,7 @@
 }
 
 .hover-bg-black-20:focus-within {
-  background-color: rgba(14, 13, 13, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .w-sixth {

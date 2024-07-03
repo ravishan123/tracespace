@@ -142,5 +142,8 @@
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^4.2.2",
     "worker-loader": "^2.0.0"
+  },
+  "dependencies": {
+    "styled-components": "^6.1.11"
   }
 }

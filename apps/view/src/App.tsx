@@ -12,7 +12,6 @@ import ErrorToast from './ErrorToast'
 import {preventDefault} from './events'
 import {Main} from './ui'
 import {FileEvent} from './types'
-import { BgAnimation } from './ui/AnimatedBackground'
 
 function App(): JSX.Element {
   const {dispatch} = useAppState()
@@ -35,7 +34,6 @@ function App(): JSX.Element {
   return (
     <>
       <Main onDragOver={preventDefault} onDrop={handleFiles}>
-        <BgAnimation />
         <BoardDisplay />
         <FileList />
         <Nav handleFiles={handleFiles} handleUrl={handleUrl} />
