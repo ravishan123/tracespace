@@ -32,7 +32,7 @@ WORKDIR /app
 COPY --from=build /app/apps/view/dist ./
 
 # Expose the port the app will run on
-EXPOSE 8080
+EXPOSE 3000
 
 # Command to start the server
-CMD ["http-server", "-p", "8080"]
+CMD ["http-server", "-p", "3000"]
