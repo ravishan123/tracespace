@@ -36,7 +36,7 @@ function App(): JSX.Element {
       <Main onDragOver={preventDefault} onDrop={handleFiles}>
         <BoardDisplay />
         <FileList />
-        <Nav handleFiles={handleFiles} handleUrl={handleUrl} />
+        <Nav handinleFiles={handleFiles} handleUrl={handleUrl} />
         <LoadFiles handleFiles={handleFiles} handleUrl={handleUrl} />
         <ErrorToast />
       </Main>
